@@ -290,6 +290,8 @@ tail = len(states_of_america)
 print(tail)
 print(states_of_america.index(choice))
 """
+
+"""
 import random
 
 welcome = "Welcome to my Rock Paper Scissors Game!"
@@ -377,3 +379,90 @@ elif choice_converter == choice_table.index(scissors) and computer_choice == 2:
     print(f" computer choose({computer_choice}):\n {scissors}")
     print(computer_choice)
     print("It is a draw")
+else:
+    print("Type number between 0 to 2")
+"""
+""""
+students_scores = [150, 142, 185, 120, 171, 184, 149, 24, 59, 68, 199, 78, 69, 89]
+
+#max_number = 0
+
+#number = range(len(students_scores))
+
+#print(number)
+total_number = 0
+numbers = range(1, 101)
+
+for number in numbers:
+    if number % 3 == 0 and number % 5 == 0:
+        print("FizzBuzz")
+    elif number % 5 == 0:
+        print("Buzz")
+    elif number % 3 ==0:
+        print("Fizz")
+    else:
+        print(number)
+"""
+
+import  random
+
+letters = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z']
+numbers = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+symbols = ['!', '#', '$', '%', '&', '(', ')', '*', '+']
+
+
+print("Welcome to the PyPassword Generator!")
+nr_letters= int(input("How many letters would you like in your password?\n"))
+#nr_symbols = int(input(f"How many symbols would you like?\n"))
+#nr_numbers = int(input(f"How many numbers would you like?\n"))
+
+password_list = []
+password = ""
+
+if nr_letters > 51:
+    print("Chose number <= 51")
+else:
+
+    for letter in range(0, nr_letters):
+        random_letter = letter
+        letter_generate = letters[random_letter]
+        password_list.append(letter_generate)
+    print(password_list)
+
+
+    nr_symbols = int(input(f"How many symbols would you like?\n"))
+
+    if nr_symbols > 8:
+        print("Choose number <= 8")
+    else:
+
+        for symbol in range(0, nr_symbols):
+            random_symbol = symbol
+            symbol_generate = symbols[random_symbol]
+            password_list.append(symbol_generate)
+        print(password_list)
+
+        nr_numbers = int(input(f"How many numbers would you like?\n"))
+
+        if nr_numbers > 9:
+            print("Choose number <= 9")
+        else:
+
+            for number in range(0, nr_numbers):
+                random_number = number
+                number_generate = numbers[random_number]
+                password_list.append(number_generate)
+            print(password_list)
+
+            random.shuffle(password_list)
+
+            password_generate = password_list
+
+            print(password_generate)
+
+            for i in password_list:
+                password += i
+
+            password_generate = f"Your password is: {password}"
+
+            print(password_generate)
