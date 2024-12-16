@@ -403,6 +403,7 @@ for number in numbers:
     else:
         print(number)
 """
+"""
 
 import  random
 
@@ -466,3 +467,18 @@ else:
             password_generate = f"Your password is: {password}"
 
             print(password_generate)
+"""
+"""
+def life_in_week(age):
+    age_left = 90 - age
+    age_weeks_left = age_left * 52
+
+    print(f"You have {age_weeks_left} weeks left")
+life_in_week(20)
+"""
+
+def great_with(name, location, age):
+    age = int(age)
+    print(f"Hello your name is {name} and your location is {location} an your age is {age}")
+
+great_with("viann", "London", 20)
