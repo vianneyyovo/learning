@@ -476,9 +476,57 @@ def life_in_week(age):
     print(f"You have {age_weeks_left} weeks left")
 life_in_week(20)
 """
-
+"""
 def great_with(name, location, age):
     age = int(age)
     print(f"Hello your name is {name} and your location is {location} an your age is {age}")
 
-great_with("viann", "London", 20)
+great_with("viand", "London", 20)
+"""
+from collections import Counter
+
+true = ['t', 'r', 'u', 'e']
+love = ['l', 'o', 'v', 'e']
+
+def calculate_love_score(name1, name2):
+    name_1 = name1
+    name_2 = name2
+
+    name_concat = name1 + name_2
+
+    name_concat_lower = name_concat.lower()
+
+    count_1 = Counter(name1)
+    count_2 = Counter(name2)
+    count_name_concat = Counter(name_concat_lower)
+
+    count_true = Counter(true)
+    count_love = Counter(love)
+
+    #value1 = count_1.values()
+    #value2 = count_2.values()
+
+    print(f"name 1 est {name_1} et name 2 est {name_2}")
+
+    print(f"count 1 est {count_1} et\n count 2 est {count_2}")
+
+    print(f"name concat counter: ", count_name_concat)
+
+
+    match_true = {true_letter: max(count_true[true_letter], count_name_concat[true_letter]) for true_letter in count_true if true_letter in count_name_concat}
+    match_love = {love_letter: max(count_love[love_letter], count_name_concat[love_letter]) for love_letter in count_love if love_letter in count_name_concat}
+
+    sum_true = sum(match_true.values())
+    sum_love = sum(match_love.values())
+
+    true_love_score = str(sum_true) + str(sum_love)
+
+    print(f"Match true: {match_true}")
+    print(f"sum of values of match true: ", sum_true)
+    print(f"Match love: {match_love}")
+    print(f"sum of values of match love: ", sum_love)
+
+    print(f"True Love Score: ", true_love_score)
+
+
+calculate_love_score("Kanye West", "Kim Kardashian")
