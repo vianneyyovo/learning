@@ -483,6 +483,8 @@ def great_with(name, location, age):
 
 great_with("viand", "London", 20)
 """
+
+"""
 from collections import Counter
 
 true = ['t', 'r', 'u', 'e']
@@ -530,3 +532,52 @@ def calculate_love_score(name1, name2):
 
 
 calculate_love_score("Kanye West", "Kim Kardashian")
+"""
+"""
+travel_list = {
+    "France": ['Paris', 'Lille', 'Dijon'],
+    "Germany": ['a', 'Berlin'],
+}
+
+print(travel_list["France"][1])
+
+nested_list = ['A', 'B', ['C', 'D']]
+
+print(nested_list[2][1])
+
+travel_log = {
+    "France": {
+        "cities_visited": ['Paris', 'Lille', 'Dijon'],
+        "total_visit": 12,
+    },
+    "Germany": {
+        "cities_visited": ['Berlin', 'Hamburg', 'stuttgart'],
+        "total_visit": 5,
+    },
+}
+
+print(f"travel log: ", travel_log["Germany"]["cities_visited"][2])
+"""
+"""
+def formate_name(f_name, l_name):
+    return f"{f_name} {l_name}"
+
+complete_name = formate_name("vianney".title(), "yovo".title())
+
+print(complete_name)
+"""
+
+def is_leap_year(year):
+    """Print leap year or not"""
+    output_4 = year % 4
+    output_100 = year % 100
+    output_400 = year % 400
+    if output_4 == 0 and (output_100 != 0 or output_400 == 0):
+        return True
+    else:
+        return False
+
+solution = is_leap_year(2100)
+
+print(solution)
+    # Don't change the function name.
