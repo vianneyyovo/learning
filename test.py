@@ -566,9 +566,9 @@ complete_name = formate_name("vianney".title(), "yovo".title())
 
 print(complete_name)
 """
-
+"""
 def is_leap_year(year):
-    """Print leap year or not"""
+    
     output_4 = year % 4
     output_100 = year % 100
     output_400 = year % 400
@@ -580,4 +580,12 @@ def is_leap_year(year):
 solution = is_leap_year(2100)
 
 print(solution)
-    # Don't change the function name.
+"""
+
+def odd_or_even(number):
+    if number % 2 == 0:
+        return "This is an even number."
+    else:
+        return "This is an odd number."
+
+odd_or_even(4)
