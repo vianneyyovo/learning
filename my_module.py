@@ -1,1 +1,0 @@
-my_random_number = 12.5
