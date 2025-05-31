@@ -10,6 +10,9 @@ class MiCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'MiCard App',
+      debugShowCheckedModeBanner: false,
+      theme: ThemeData(primarySwatch: Colors.teal),
       home: Scaffold(
         body: SafeArea(
           child: Container(

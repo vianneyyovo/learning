@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ab00e5a3-ffef-473a-b93a-6368c676c32e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../../flutter_projects/deeci/images/dice1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_projects/deeci/images/dice2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_projects/deeci/images/dice3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_projects/deeci/images/dice4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_projects/deeci/images/dice5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../flutter_projects/deeci/images/dice6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_projects/mi_card/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/LaunchImage.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/LaunchImage.imageset/LaunchImage@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/ios/Runner/Assets.xcassets/LaunchImage.imageset/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../flutter_projects/mi_card/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../../flutter_projects/mi_card/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_3/src/Benz.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_3/src/com/mycompany/rentmanagment/domaine/Benz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_3/src/DemoOnject.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_3/src/com/mycompany/rentmanagment/domaine/DemoOnject.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_3/src/Directeur.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_3/src/com/mycompany/rentmanagment/domaine/Directeur.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_3/src/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_3/src/com/mycompany/rentmanagment/domaine/Employer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_3/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_3/src/Personne.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_3/src/com/mycompany/rentmanagment/domaine/Personne.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../java_3/src/Voiture.java" beforeDir="false" afterPath="$PROJECT_DIR$/../java_3/src/com/mycompany/rentmanagment/service/Voiture.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2xqFlcQ0Ry0uzav6zocGt9MlS1Z" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;java&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/viann/Downloads/mysql-connector-j_9.3.0-1ubuntu24.10_all&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/viann/learning/java_project/java_4/src/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ab00e5a3-ffef-473a-b93a-6368c676c32e" name="Changes" comment="" />
+      <created>1748657852398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1748657852398</updated>
+      <workItem from="1748657853645" duration="7087000" />
+      <workItem from="1748710499518" duration="59000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
