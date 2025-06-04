@@ -1,18 +1,19 @@
 package com.vianney.demojdbc;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
-import java.sql.PreparedStatement;
+import java.sql.*;
+
 
 public class DemoJdbc {
 
     private Connection connection;
+    Object data;
 
     public DemoJdbc() {
         try {
+
             Class.forName("com.mysql.cj.jdbc.Driver");
         } catch (ClassNotFoundException e) {
+
             System.err.println("❌ Driver JDBC non trouvé : " + e.getMessage());
         }
     }
@@ -24,10 +25,10 @@ public class DemoJdbc {
                 String user = "root";
                 String url = "jdbc:mysql://localhost:3306/biblio_db?useSSL=false&serverTimezone=UTC";
                 connection = DriverManager.getConnection(url, user, password);
-                System.out.println("✅ Connexion établie !");
+                System.out.println("Connexion établie !");
             }
         } catch (SQLException e) {
-            System.err.println("❌ Échec de la connexion : " + e.getMessage());
+            System.err.println("Échec de la connexion : " + e.getMessage());
         }
     }
 
@@ -43,10 +44,32 @@ public class DemoJdbc {
 
             int rowsInserted = pst.executeUpdate();
             if (rowsInserted > 0) {
-                System.out.println("✅ Livre ajouté avec succès !");
+                System.out.println("Livre ajouté avec succès !");
             }
         } catch (SQLException e) {
             System.err.println("Echec de l'inserssion : " + e.getMessage());
+        }
+    }
+
+    public void readData() {
+        String sql = "SELECT * FROM livres";
+
+        try  {
+            PreparedStatement pst = connection.prepareStatement(sql);
+            ResultSet rs = pst.executeQuery();
+
+            System.out.println("📚 Liste des livres :");
+            while (rs.next()) {
+                String title = rs.getString("title");
+                String author = rs.getString("author");
+                String isbn = rs.getString("isbn");
+                String resum = rs.getString("resum");
+
+                System.out.println("- " + title + " | " + author + " | " + isbn + " | " + resum);
+            }
+
+        } catch (SQLException e) {
+            System.err.println("❌ Échec de lecture : " + e.getMessage());
         }
     }
 
@@ -55,10 +78,10 @@ public class DemoJdbc {
             if (connection != null && !connection.isClosed()) {
                 connection.close();
 
-                System.out.println("🔒 Connexion fermée.");
+                System.out.println("Connexion fermée.");
             }
         } catch (SQLException e) {
-            System.err.println("❌ Erreur lors de la fermeture : " + e.getMessage());
+            System.err.println("Erreur lors de la fermeture : " + e.getMessage());
         }
     }
 }

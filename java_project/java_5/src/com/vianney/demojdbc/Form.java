@@ -4,6 +4,7 @@ import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.sql.SQLException;
 
 public class Form extends JFrame {
 
@@ -13,10 +14,12 @@ public class Form extends JFrame {
     private JTextField resumField;
     private JButton addButton;
 
+    DemoJdbc db = new DemoJdbc();
+
     public Form() {
         super("Ajouter un Livre");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(400, 300);
+        setSize(1000, 400);
         setLocationRelativeTo(null);
 
 
@@ -44,7 +47,7 @@ public class Form extends JFrame {
         add(addButton);
 
 
-        add(new JLabel(""));
+        add(new JLabel("by vianney"));
 
         addButton.addActionListener(new ActionListener() {
             @Override
@@ -54,6 +57,8 @@ public class Form extends JFrame {
         });
 
         setVisible(true);
+        readData();
+
     }
 
     public void addBook() {
@@ -62,17 +67,21 @@ public class Form extends JFrame {
         String isbn = isbnField.getText();
         String resum = resumField.getText();
 
-        DemoJdbc db = new DemoJdbc();
-
         try {
             db.getConnection();
             db.createStatement(title, author, isbn, resum);
-            db.closeConnection();
 
             JOptionPane.showMessageDialog(this, "Livre ajouté avec succès !");
         } catch (Exception ex) {
             JOptionPane.showMessageDialog(this, "Erreur : " + ex.getMessage(), "Erreur", JOptionPane.ERROR_MESSAGE);
         }
+    }
+
+
+    public void readData() {
+        db.getConnection();
+        db.readData();
+
     }
 
 }
